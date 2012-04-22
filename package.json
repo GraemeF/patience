@@ -5,7 +5,9 @@
   "version": "0.0.0",
   "main": "patience.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+      "tap": "~0.2.4"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"

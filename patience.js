@@ -14,7 +14,6 @@ var soon = function (assert, context, callback) {
     var retryingCallback = function (error) {
         if (error) {
             if (attempts++ < 100) {
-                console.log(error);
                 setTimeout(function () {
                     tryAssert(assert, context, retryingCallback);
                 }, 10);
