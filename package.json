@@ -1,0 +1,13 @@
+{
+  "author": "Graeme Foster <graemef@gmail.com> (http://graemef.com)",
+  "name": "patience",
+  "description": "A little something to help your asserts chill out.",
+  "version": "0.0.0",
+  "main": "patience.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
