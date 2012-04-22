@@ -5,10 +5,9 @@
   "scripts": {
     "test": "node node_modules/tap/bin/tap.js tests"
   },
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "patience.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tap": "~0.2.4"
   },
