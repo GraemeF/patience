@@ -2,6 +2,10 @@
   "author": "Graeme Foster <graemef@gmail.com> (http://graemef.com)",
   "name": "patience",
   "description": "A little something to help your asserts chill out.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GraemeF/patience.git"
+    },
   "scripts": {
     "test": "node node_modules/tap/bin/tap.js tests"
   },
