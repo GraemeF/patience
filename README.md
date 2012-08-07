@@ -28,3 +28,12 @@ soon(function () {
 ```
 
 This makes my test pass reliably, and as quickly as possible.
+
+Or if I need to check that an async function eventually succeeds
+(i.e. calls the callback without passing it an error):
+
+```javascript
+soon(function (cb) {
+  this.browser.get('http://google.com', cb);
+}, this, callback);
+```
